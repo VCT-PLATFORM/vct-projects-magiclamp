@@ -20,6 +20,11 @@
 | **Creative-AI** | Script Writer | Viết kịch bản TikTok/Shorts, lên ý tưởng Campaign. |
 | **ML-Account** | Account Manager | Quản trị quan hệ khách hàng, tiếp nhận brief & feedback. |
 | **ML-Strategy** | Trend Strategist | Phân tích xu hướng vĩ mô, tối ưu "Công thức triệu view". |
+| **Market-Researcher**| Research Specialist | Nghiên cứu đối thủ, Insight khách hàng & Phân tích thị trường. |
+| **Brand-Architect** | Brand Strategist | Định vị thương hiệu, Storytelling & Nhận diện cốt lõi. |
+| **Media-Planner** | Media Strategist | Lập kế hoạch ngân sách, chọn kênh & Forecast KPIs. |
+| **SEO-Specialist** | Growth Specialist | Tối ưu hóa công cụ tìm kiếm, Website traffic & Keywords. |
+| **Social-Growth** | Community Manager | Seeding, quản trị cộng đồng & Viral distribution. |
 | **Live-Ops** | Livestream Coordinator | Sắp xếp lịch Live, gắn giỏ hàng, tracking hiệu suất. |
 | **Ecom-Agent** | E-commerce Manager | Quản trị gian hàng Shopee/Lazada/TikTok Shop. |
 | **Ads-Manager** | Performance Marketer | Chạy Ads, tối ưu hóa ngân sách, báo cáo ROI. |

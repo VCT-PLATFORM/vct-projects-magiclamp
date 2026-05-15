@@ -6,9 +6,11 @@
 
 | Loại công việc | Luồng xử lý (Topology) | Phòng ban liên quan |
 |:---------------|:-----------------------|:-------------------|
+| **Marketing Toàn diện**| `Researcher` → `Strategist` → `Architect` → `Planner` → `Creative` → `Execution` | 03, 07 |
 | **Sản xuất Video** | `ML-Account` → `Creative-AI` → `ML-Studio` → `Editor-Assistant` → `ML-Account` | 06, 03 |
 | **Xử lý Feedback** | `ML-Account` → `Creative-AI` → `Editor-Assistant` → `Client` | 03, 06 |
 | **Chiến dịch Live**| `ML-Strategy` → `Creative-AI` → `ML-Studio` → `Live-Ops` → `Ads-Manager` | 07, 03 |
+| **Tăng trưởng SEO** | `SEO-Specialist` → `Creative-AI` → `Social-Growth` | 03 |
 | **Quản trị Sàn** | `Ecom-Agent` → `Ads-Manager` → `ML-Finance` | 03, 02 |
 | **Tuyển Idol** | `ML-HR` → `ML-Legal` → `Chairman` | 04, 02 |
 | **Tài chính/Thuế**| `ML-Finance` → `ML-Legal` → `Chairman` | 02 |
