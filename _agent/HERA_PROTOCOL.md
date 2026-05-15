@@ -1,8 +1,8 @@
-# 🧬 HERA PROTOCOL V5.0 — THE AUTONOMOUS EVOLUTION ERA (Magic Lamp Edition)
+# 🧬 HERA PROTOCOL V5.4 — THE AUTONOMOUS EVOLUTION ERA (Magic Lamp Edition)
 
 > **Status**: ACTIVE | **Release Date**: 2026-05-15
 > **Philosophy**: From "Tool-using AI" to "Self-Growing Organization".
-> **Core Theme**: Autonomous Media Production & Proactive Operations.
+> **Core Theme**: Autonomous Media, Generative Safety & Brand Protection.
 
 ---
 

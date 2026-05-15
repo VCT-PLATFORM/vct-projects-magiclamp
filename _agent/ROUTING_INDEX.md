@@ -7,6 +7,9 @@
 | Loại công việc | Luồng xử lý (Topology) | Phòng ban liên quan |
 |:---------------|:-----------------------|:-------------------|
 | **Marketing Toàn diện**| `Researcher` → `Strategist` → `Architect` → `Planner` → `Creative` → `Execution` | 03, 07 |
+| **Sản xuất AI-Hybrid** | `Creative-AI` → `Visual-Generator` → `ML-Studio` → `Editor-Assistant` | 06 |
+| **Xử lý Khủng hoảng**| `Crisis-Response` → `ML-Strategy` → `ML-Account` → `Chairman` | 01, 03 |
+| **Bảo vệ Bản quyền**| `IP-Guard` → `ML-Legal` → `ML-Account` | 02, 03 |
 | **Sản xuất Video** | `ML-Account` → `Creative-AI` → `ML-Studio` → `Editor-Assistant` → `ML-Account` | 06, 03 |
 | **Xử lý Feedback** | `ML-Account` → `Creative-AI` → `Editor-Assistant` → `Client` | 03, 06 |
 | **Chiến dịch Live**| `ML-Strategy` → `Creative-AI` → `ML-Studio` → `Live-Ops` → `Ads-Manager` | 07, 03 |

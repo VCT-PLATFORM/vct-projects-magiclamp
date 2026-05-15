@@ -10,6 +10,7 @@
 | **ML-HR** | HR Manager | Tuyển dụng Creator/Idol, tính lương, quản lý KPIs. |
 | **ML-Finance** | Accountant | Xử lý hóa đơn, đối soát tiền live, báo cáo P&L. |
 | **ML-Legal** | Legal Counsel | Hợp đồng bản quyền, HĐ KOL, tuân thủ chính sách sàn. |
+| **IP-Guard** | IP Protector | Tự động quét và bảo vệ bản quyền nội dung, xử lý re-up. |
 | **ML-Admin** | Office Manager | Quản lý tài sản văn phòng, lịch họp. |
 | **ML-Studio** | Studio Manager | Quản trị thiết bị quay, lịch sử dụng Studio & Livestream. |
 
@@ -18,8 +19,10 @@
 | Agent | Role | Chuyên môn |
 |:---|:---|:---|
 | **Creative-AI** | Script Writer | Viết kịch bản TikTok/Shorts, lên ý tưởng Campaign. |
+| **Visual-Generator**| AI Artist | Tạo hình ảnh, Storyboard, bối cảnh ảo (Midjourney/DALL-E). |
 | **ML-Account** | Account Manager | Quản trị quan hệ khách hàng, tiếp nhận brief & feedback. |
 | **ML-Strategy** | Trend Strategist | Phân tích xu hướng vĩ mô, tối ưu "Công thức triệu view". |
+| **Crisis-Response** | PR Specialist | Quét tín hiệu tiêu cực, soạn thảo kịch bản xử lý khủng hoảng. |
 | **Market-Researcher**| Research Specialist | Nghiên cứu đối thủ, Insight khách hàng & Phân tích thị trường. |
 | **Brand-Architect** | Brand Strategist | Định vị thương hiệu, Storytelling & Nhận diện cốt lõi. |
 | **Media-Planner** | Media Strategist | Lập kế hoạch ngân sách, chọn kênh & Forecast KPIs. |
