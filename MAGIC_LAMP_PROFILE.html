@@ -3,206 +3,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VCT Platform | Giải Pháp AI-OS Toàn Diện Cho Magic Lamp</title>
+    <title>VCT Platform | HERA V5.4 Master Proposal for Magic Lamp</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Outfit', sans-serif; background-color: #020617; color: #f8fafc; scroll-behavior: smooth; }
-        .glass { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.05); }
-        .vct-gradient { background: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero-pattern { background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), radial-gradient(at 50% 0%, hsla(180,39%,30%,1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(225,49%,30%,1) 0, transparent 50%); }
-        .feature-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-        .feature-card:hover { background: rgba(255, 255, 255, 0.03); border-color: rgba(59, 130, 246, 0.3); transform: scale(1.02); }
-        .line-progress { height: 2px; background: linear-gradient(90deg, #3b82f6, #2dd4bf); }
+        :root { --vct-teal: #14b8a6; --vct-blue: #3b82f6; --vct-dark: #020617; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--vct-dark); color: #f8fafc; scroll-behavior: smooth; }
+        .glass { background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .vct-gradient { background: linear-gradient(135deg, var(--vct-teal) 0%, var(--vct-blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .bg-mesh { background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), radial-gradient(at 50% 0%, hsla(180,39%,15%,1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(225,49%,15%,1) 0, transparent 50%); }
+        .tech-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.3s ease; }
+        .tech-card:hover { border-color: var(--vct-teal); background: rgba(20, 184, 166, 0.05); }
+        .code-block { background: #010409; font-family: 'Courier New', Courier, monospace; color: #79c0ff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #30363d; font-size: 0.85rem; }
+        .instinct-loop { display: flex; align-items: center; justify-content: center; gap: 1rem; }
+        .pulse-teal { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.4); } 70% { box-shadow: 0 0 0 15px rgba(20, 184, 166, 0); } 100% { box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); } }
     </style>
 </head>
 <body class="selection:bg-teal-500/30">
 
-    <!-- Navbar -->
+    <!-- Navigation -->
     <nav class="fixed top-0 w-full z-50 glass border-b border-white/5 py-4 px-8 flex justify-between items-center">
         <div class="flex items-center gap-4">
-            <div class="px-3 py-1 bg-teal-500 text-white font-bold rounded text-sm">VCT</div>
-            <span class="font-bold text-lg tracking-tight">PLATFORM <span class="text-slate-500 font-normal">| Magic Lamp Solution</span></span>
+            <div class="px-3 py-1 bg-teal-500 text-white font-extrabold rounded text-sm">VCT</div>
+            <span class="font-bold text-lg tracking-tight">MASTER PROPOSAL <span class="text-slate-500 font-normal">| Magic Lamp</span></span>
         </div>
-        <div class="hidden lg:flex gap-10 text-xs font-bold uppercase tracking-widest text-slate-400">
-            <a href="#solution" class="hover:text-teal-400 transition-colors">Giải Pháp</a>
-            <a href="#architecture" class="hover:text-teal-400 transition-colors">Kiến Trúc</a>
-            <a href="#implementation" class="hover:text-teal-400 transition-colors">Triển Khai</a>
-            <a href="#support" class="hover:text-teal-400 transition-colors">Hỗ Trợ</a>
+        <div class="hidden xl:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+            <a href="#vision" class="hover:text-teal-400 transition-colors">Tầm Nhìn</a>
+            <a href="#architecture" class="hover:text-teal-400 transition-colors">Kiến Trúc Kỹ Thuật</a>
+            <a href="#evolution" class="hover:text-teal-400 transition-colors">Cơ Chế Tự Học</a>
+            <a href="#integration" class="hover:text-teal-400 transition-colors">Kết Nối</a>
+            <a href="#security" class="hover:text-teal-400 transition-colors">Bảo Mật</a>
+            <a href="#roadmap" class="hover:text-teal-400 transition-colors">Lộ Trình</a>
+        </div>
+        <div class="flex items-center gap-4">
+            <span class="text-[10px] font-mono text-teal-500 bg-teal-500/10 px-2 py-1 rounded">HERA V5.4 STABLE</span>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="min-h-screen pt-40 pb-20 px-8 hero-pattern relative overflow-hidden">
+    <!-- Master Hero -->
+    <header id="vision" class="min-h-screen pt-40 pb-20 px-8 bg-mesh relative">
         <div class="container mx-auto">
-            <div class="max-w-4xl">
-                <div class="inline-block px-4 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-xs font-bold mb-6 uppercase tracking-widest">
-                    Enterprise Partner Solution
-                </div>
-                <h1 class="text-6xl md:text-8xl font-black mb-8 leading-tight">
-                    Nâng Tầm <span class="vct-gradient">Magic Lamp</span> Bằng Hệ Điều Hành AI
-                </h1>
-                <p class="text-xl text-slate-400 mb-12 max-w-2xl leading-relaxed">
-                    VCT Platform cung cấp giải pháp **HERA V5.4 AI-OS** toàn diện, biến Magic Lamp thành một Media House tự hành với đội ngũ 20+ đặc vụ AI chuyên trách, tối ưu hóa 90% quy trình vận hành.
-                </p>
-                <div class="flex gap-4">
-                    <button class="px-8 py-4 bg-teal-600 hover:bg-teal-500 text-white font-bold rounded-xl transition-all shadow-xl shadow-teal-900/20">Kích Hoạt Hệ Thống</button>
-                    <button class="px-8 py-4 glass text-white font-bold rounded-xl transition-all">Tài Liệu Kỹ Thuật</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Stack -->
-    <section id="solution" class="py-32 px-8">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-                <div class="lg:col-span-5">
-                    <h2 class="text-4xl font-bold mb-8">Giải Pháp <span class="text-teal-500">Đội Ngũ Nhân Sự Số</span> Cho Magic Lamp</h2>
-                    <p class="text-slate-400 mb-8 leading-relaxed">
-                        Chúng tôi thiết lập một cấu trúc tổ chức AI mô phỏng hoàn hảo bộ máy của một Media Agency chuyên nghiệp, cho phép Magic Lamp mở rộng quy mô phục vụ khách hàng không giới hạn.
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div>
+                    <h2 class="text-teal-500 font-bold tracking-[0.3em] mb-6 uppercase text-sm">VCT Platform x Magic Lamp</h2>
+                    <h1 class="text-6xl md:text-8xl font-black mb-8 leading-[1.1]">
+                        MEDIA HOUSE <br> <span class="vct-gradient">TỰ HÀNH</span> <br> TOÀN DIỆN
+                    </h1>
+                    <p class="text-xl text-slate-400 mb-10 leading-relaxed max-w-xl">
+                        Giải pháp tối thượng biến Magic Lamp thành một thực thể Marketing số 1 khu vực bằng sức mạnh của trí tuệ bầy đàn và hệ điều hành AI độc quyền.
                     </p>
-                    <div class="space-y-4">
-                        <div class="flex items-center gap-4 p-4 glass rounded-2xl">
-                            <div class="w-10 h-10 bg-teal-500/20 rounded-full flex items-center justify-center text-teal-400 font-bold">01</div>
-                            <span class="font-semibold">Bộ Não Chiến Lược & Nghiên Cứu (Strategy AI)</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 glass rounded-2xl">
-                            <div class="w-10 h-10 bg-teal-500/20 rounded-full flex items-center justify-center text-teal-400 font-bold">02</div>
-                            <span class="font-semibold">Xưởng Sản Xuất Nội Dung Viral (Creative AI)</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 glass rounded-2xl">
-                            <div class="w-10 h-10 bg-teal-500/20 rounded-full flex items-center justify-center text-teal-400 font-bold">03</div>
-                            <span class="font-semibold">Cỗ Máy Growth & Performance (Ecom & Ads AI)</span>
-                        </div>
-                        <div class="flex items-center gap-4 p-4 glass rounded-2xl">
-                            <div class="w-10 h-10 bg-teal-500/20 rounded-full flex items-center justify-center text-teal-400 font-bold">04</div>
-                            <span class="font-semibold">Lớp Quản Trị & Bảo Mật (Governance AI)</span>
-                        </div>
+                    <div class="flex gap-4">
+                        <a href="#architecture" class="px-8 py-4 bg-teal-600 hover:bg-teal-500 text-white font-bold rounded-xl transition-all shadow-xl shadow-teal-900/30">Khám Phá Cấu Trúc</a>
+                        <a href="#security" class="px-8 py-4 glass text-white font-bold rounded-xl transition-all">An Ninh & Bảo Mật</a>
                     </div>
                 </div>
-                <div class="lg:col-span-7 grid grid-cols-2 gap-4">
-                    <div class="space-y-4 pt-12">
-                        <div class="glass p-6 rounded-3xl feature-card">
-                            <h4 class="text-teal-500 font-bold mb-2">Market-Researcher</h4>
-                            <p class="text-xs text-slate-500">Nghiên cứu thị trường và đối thủ 24/7 bằng dữ liệu thời gian thực.</p>
-                        </div>
-                        <div class="glass p-6 rounded-3xl feature-card">
-                            <h4 class="text-teal-500 font-bold mb-2">Creative-AI</h4>
-                            <p class="text-xs text-slate-500">Tự động sản xuất kịch bản và storyboard viral đa nền tảng.</p>
-                        </div>
-                    </div>
-                    <div class="space-y-4">
-                        <div class="glass p-6 rounded-3xl feature-card">
-                            <h4 class="text-teal-500 font-bold mb-2">Ads-Manager</h4>
-                            <p class="text-xs text-slate-500">Tối ưu hóa chiến dịch quảng cáo dựa trên mục tiêu ROAS của khách hàng.</p>
-                        </div>
-                        <div class="glass p-6 rounded-3xl feature-card">
-                            <h4 class="text-teal-500 font-bold mb-2">Crisis-Response</h4>
-                            <p class="text-xs text-slate-500">Vệ sĩ kỹ thuật số bảo vệ danh tiếng khách hàng 24/7.</p>
-                        </div>
-                        <div class="glass p-6 rounded-3xl feature-card">
-                            <h4 class="text-teal-500 font-bold mb-2">IP-Guard</h4>
-                            <p class="text-xs text-slate-500">Tự động truy quét và bảo vệ bản quyền tài sản số của Magic Lamp.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Implementation Roadmap -->
-    <section id="implementation" class="py-32 px-8 bg-slate-950">
-        <div class="container mx-auto">
-            <div class="text-center mb-20">
-                <h2 class="text-4xl font-bold mb-4">Lộ Trình Triển Khai Cho Magic Lamp</h2>
-                <p class="text-slate-500">Quy trình chuyên nghiệp từ VCT Platform để đưa hệ thống vào vận hành</p>
-            </div>
-
-            <div class="max-w-5xl mx-auto">
                 <div class="relative">
-                    <div class="absolute left-1/2 top-0 bottom-0 w-px bg-slate-800 hidden md:block"></div>
-                    
-                    <!-- Phase 1 -->
-                    <div class="mb-20 flex flex-col md:flex-row items-center gap-8">
-                        <div class="md:w-1/2 md:text-right">
-                            <h5 class="text-2xl font-bold text-teal-400 mb-2">GIAI ĐOẠN 1: THIẾT LẬP HẠ TẦNG</h5>
-                            <p class="text-slate-500">Khởi tạo môi trường HERA V5.4, thiết lập các Knowledge Shards cô lập để bảo mật dữ liệu khách hàng tuyệt đối (Rule 25).</p>
+                    <div class="glass p-8 rounded-[40px] border-teal-500/20 shadow-2xl shadow-teal-500/5">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-xs font-mono text-slate-500">System Monitoring...</span>
+                            <div class="flex gap-1">
+                                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                            </div>
                         </div>
-                        <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center relative z-10 shadow-[0_0_20px_rgba(20,184,166,0.5)]">1</div>
-                        <div class="md:w-1/2"></div>
+                        <div class="space-y-4">
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5">
+                                <div class="text-teal-400 font-bold text-sm mb-1">MARKET-RESEARCHER AI</div>
+                                <div class="text-xs text-slate-500">Đang quét 500+ trang web đối thủ... 89% hoàn thành.</div>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5">
+                                <div class="text-blue-400 font-bold text-sm mb-1">CREATIVE-AI SCRIPT ENGINE</div>
+                                <div class="text-xs text-slate-500">Đang tạo 5 kịch bản Viral dựa trên Trend TikTok sáng nay.</div>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5">
+                                <div class="text-purple-400 font-bold text-sm mb-1">IP-GUARD PROTECTION</div>
+                                <div class="text-xs text-slate-500">Phát hiện 12 vụ re-up vi phạm. Đã gửi yêu cầu gỡ bỏ tự động.</div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-                    <!-- Phase 2 -->
-                    <div class="mb-20 flex flex-col md:flex-row-reverse items-center gap-8">
-                        <div class="md:w-1/2 md:text-left">
-                            <h5 class="text-2xl font-bold text-teal-400 mb-2">GIAI ĐOẠN 2: "DẠY BẢN NĂNG" CHO AGENT</h5>
-                            <p class="text-slate-500">Nạp dữ liệu cốt lõi (Brand DNA, Sản phẩm) của các khách hàng Magic Lamp. Tinh chỉnh "Tông giọng" và phong cách sáng tạo cho dàn Agent.</p>
-                        </div>
-                        <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center relative z-10 shadow-[0_0_20px_rgba(20,184,166,0.5)]">2</div>
-                        <div class="md:w-1/2"></div>
+    <!-- Deep Dive Architecture -->
+    <section id="architecture" class="py-32 px-8 bg-slate-950">
+        <div class="container mx-auto">
+            <div class="mb-20">
+                <h2 class="text-4xl md:text-5xl font-black mb-6">KIẾN TRÚC <span class="text-teal-500 text-6xl">LÕI</span></h2>
+                <p class="text-slate-400 max-w-3xl leading-relaxed italic">"Bên dưới vẻ bề ngoài của các Agent là một hệ thống phối hợp đa tầng (Multi-layered Coordination) cực kỳ phức tạp."</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- LLM Orchestration -->
+                <div class="tech-card p-10 rounded-[32px]">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
-
-                    <!-- Phase 3 -->
-                    <div class="mb-20 flex flex-col md:flex-row items-center gap-8">
-                        <div class="md:w-1/2 md:text-right">
-                            <h5 class="text-2xl font-bold text-teal-400 mb-2">GIAI ĐOẠN 3: VẬN HÀNH THỬ NGHIỆM (PILOT)</h5>
-                            <p class="text-slate-500">Chạy thực tế 2-3 chiến dịch mẫu cho các khách hàng trọng điểm. Đội ngũ kỹ sư VCT sẽ giám sát và tối ưu hóa phản hồi của Agent.</p>
+                    <h3 class="text-2xl font-bold mb-4 text-white">Multi-LLM Engine</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Sử dụng sức mạnh phối hợp của các Model hàng đầu thế giới để đạt hiệu suất tối đa.</p>
+                    <div class="space-y-3">
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Gemini 1.5 Pro</span>
+                            <span class="text-teal-400">Reasoning & Coding</span>
                         </div>
-                        <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center relative z-10 shadow-[0_0_20px_rgba(20,184,166,0.5)]">3</div>
-                        <div class="md:w-1/2"></div>
+                        <div class="flex justify-between text-xs border-b border-white/5 pb-2">
+                            <span class="text-slate-400">Claude 3.5 Sonnet</span>
+                            <span class="text-teal-400">Creative Writing</span>
+                        </div>
+                        <div class="flex justify-between text-xs pb-2">
+                            <span class="text-slate-400">GPT-4o</span>
+                            <span class="text-teal-400">Fast Execution</span>
+                        </div>
                     </div>
+                </div>
 
-                    <!-- Phase 4 -->
-                    <div class="flex flex-col md:flex-row-reverse items-center gap-8">
-                        <div class="md:w-1/2 md:text-left">
-                            <h5 class="text-2xl font-bold text-teal-400 mb-2">GIAI ĐOẠN 4: BÀN GIAO & TỰ TIẾN HÓA</h5>
-                            <p class="text-slate-500">Bàn giao toàn bộ hệ điều hành cho Magic Lamp. Kích hoạt chế độ "Autonomous Evolution" để Agent tự học và tự giỏi lên sau mỗi tác vụ.</p>
-                        </div>
-                        <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center relative z-10 shadow-[0_0_20px_rgba(20,184,166,0.5)]">4</div>
-                        <div class="md:w-1/2"></div>
+                <!-- MCP Protocol -->
+                <div class="tech-card p-10 rounded-[32px]">
+                    <div class="w-12 h-12 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-white">MCP Architecture</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Model Context Protocol (MCP) cho phép Agent truy cập vào thế giới thực như một nhân viên thực thụ.</p>
+                    <div class="code-block text-[10px]">
+                        // Connect Agent to Tools<br>
+                        agent.use(TikTokConnector);<br>
+                        agent.use(FileSystem);<br>
+                        agent.use(LiveAdsOptimization);
+                    </div>
+                </div>
+
+                <!-- HERA Framework -->
+                <div class="tech-card p-10 rounded-[32px]">
+                    <div class="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-8">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-white">HERA Protocol V5.4</h3>
+                    <p class="text-slate-500 text-sm mb-6 leading-relaxed">Hiến pháp vận hành tối thượng, đảm bảo tính ổn định và bảo mật của toàn hệ thống.</p>
+                    <div class="space-y-2">
+                        <div class="text-[10px] text-purple-400 font-mono">RULE_25: Context Isolation</div>
+                        <div class="text-[10px] text-purple-400 font-mono">RULE_12: Feedback Loop Mandatory</div>
+                        <div class="text-[10px] text-purple-400 font-mono">RULE_08: PII Zero-Retain</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Value Proposition -->
-    <section class="py-32 px-8">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-16">Giá Trị Cam Kết Từ VCT Platform</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="glass p-8 rounded-3xl">
-                    <div class="text-4xl font-bold text-teal-500 mb-4">90%</div>
-                    <p class="text-sm text-slate-400 uppercase tracking-widest font-bold">Tự Động Hóa Quy Trình</p>
+    <!-- Instinct Engine (The Evolution) -->
+    <section id="evolution" class="py-32 px-8 bg-slate-900 border-y border-white/5">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-black mb-8">INSTINCT ENGINE<br>Cơ Chế <span class="text-teal-500">Tự Tiến Hóa</span></h2>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-8">
+                        Lần đầu tiên trên thế giới, một hệ thống AI Agency không chỉ thực hiện tác vụ mà còn biết **Rút kinh nghiệm**.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex gap-6 items-start">
+                            <div class="p-3 bg-teal-500/10 rounded-full text-teal-400 font-bold">1</div>
+                            <div>
+                                <h5 class="font-bold mb-1">Thực thi & Giám sát</h5>
+                                <p class="text-sm text-slate-500">Agent thực hiện task và ghi lại toàn bộ nhật ký (Logs).</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="p-3 bg-teal-500/10 rounded-full text-teal-400 font-bold">2</div>
+                            <div>
+                                <h5 class="font-bold mb-1">Đánh giá & Phản biện</h5>
+                                <p class="text-sm text-slate-500">Hệ thống Evaluator phân tích tỉ lệ thành công và thất bại.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="p-3 bg-teal-500/10 rounded-full text-teal-400 font-bold">3</div>
+                            <div>
+                                <h5 class="font-bold mb-1">Trích xuất Bản năng (Instinct)</h5>
+                                <p class="text-sm text-slate-500">Những bài học thành công được nén lại thành "Bản năng" nạp vào hệ thống cốt lõi.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="glass p-8 rounded-3xl">
-                    <div class="text-4xl font-bold text-teal-500 mb-4">Zero</div>
-                    <p class="text-sm text-slate-400 uppercase tracking-widest font-bold">Rò Rỉ Dữ Liệu Chéo</p>
-                </div>
-                <div class="glass p-8 rounded-3xl">
-                    <div class="text-4xl font-bold text-teal-500 mb-4">24/7</div>
-                    <p class="text-sm text-slate-400 uppercase tracking-widest font-bold">Sẵn Sàng Phục Vụ</p>
-                </div>
-                <div class="glass p-8 rounded-3xl">
-                    <div class="text-4xl font-bold text-teal-500 mb-4">∞</div>
-                    <p class="text-sm text-slate-400 uppercase tracking-widest font-bold">Khả Năng Mở Rộng</p>
+                <div class="lg:w-1/2">
+                    <div class="glass p-12 rounded-[60px] text-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-teal-500/5 animate-pulse"></div>
+                        <div class="text-teal-500 font-black text-7xl mb-4">∞</div>
+                        <div class="text-2xl font-bold mb-4">Evolutionary Loop</div>
+                        <p class="text-slate-500 text-sm max-w-xs mx-auto">Hệ thống của Magic Lamp sẽ giỏi hơn 2% sau mỗi ngày vận hành thực tế.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-20 px-8 bg-slate-950 border-t border-white/5 text-center">
-        <div class="mb-8">
-            <span class="text-2xl font-black vct-gradient">VCT PLATFORM</span>
-            <p class="text-slate-500 mt-2 italic">Kiến Tạo Tương Lai Của Trí Tuệ Nhân Tạo Doanh Nghiệp</p>
+    <!-- Integration & Connectors -->
+    <section id="integration" class="py-32 px-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-16 text-center">Hệ Sinh Thái <span class="text-teal-500">Kết Nối</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-3xl">
+                    <h4 class="font-bold text-teal-400 mb-6 uppercase tracking-widest text-xs">SOCIAL MEDIA</h4>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">TikTok API</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Facebook Graph</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Instagram Insight</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">YouTube Data</div>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-3xl">
+                    <h4 class="font-bold text-blue-400 mb-6 uppercase tracking-widest text-xs">E-COMMERCE</h4>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">TikTok Shop</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Shopee Open API</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Lazada Partner</div>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-3xl">
+                    <h4 class="font-bold text-purple-400 mb-6 uppercase tracking-widest text-xs">PRODUCTIVITY</h4>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Slack Bot</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Telegram Webhook</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Google Sheets</div>
+                        <div class="px-4 py-2 bg-white/5 rounded-lg text-xs">Monday/Asana</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-slate-600 text-xs">
-            © 2026 VCT PLATFORM. ĐƠN VỊ CUNG CẤP GIẢI PHÁP ĐỘC QUYỀN CHO MAGIC LAMP MEDIA PRODUCTION. <br>
-            PROTOCOL: HERA V5.4 | SECURITY LEVEL: ENTERPRISE GRADE.
+    </section>
+
+    <!-- Security & Compliance -->
+    <section id="security" class="py-32 px-8 bg-slate-950">
+        <div class="container mx-auto">
+            <div class="max-w-4xl mx-auto glass p-12 rounded-[40px] border-red-500/10">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="w-4 h-4 bg-red-500 rounded-full pulse-teal"></div>
+                    <h2 class="text-3xl font-bold">AN NINH CẤP TẬP ĐOÀN</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h5 class="text-teal-400 font-bold mb-4">Cô Lập Dữ Liệu Khách Hàng (Multi-Tenancy)</h5>
+                        <p class="text-sm text-slate-500 leading-relaxed">
+                            Mỗi khách hàng của Magic Lamp được lưu trữ tại một **Knowledge Shard** riêng biệt. Hệ thống logic HERA V5.4 ngăn chặn tuyệt đối việc rò rỉ dữ liệu chéo.
+                        </p>
+                    </div>
+                    <div>
+                        <h5 class="text-teal-400 font-bold mb-4">Tuân Thủ PII & Bảo Mật 2 Tầng</h5>
+                        <p class="text-sm text-slate-500 leading-relaxed">
+                            Không lưu trữ thông tin nhận dạng cá nhân (PII) trên Cloud lâu dài. Mọi truy vấn đều được mã hóa và xóa sạch ngay sau khi tác vụ hoàn thành.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Roadmap & Implementation -->
+    <section id="roadmap" class="py-32 px-8">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-black mb-20 text-center">LỘ TRÌNH <span class="text-teal-500">TRIỂN KHAI</span></h2>
+            <div class="space-y-1 bg-white/5 rounded-[40px] overflow-hidden">
+                <div class="p-10 flex flex-col md:flex-row gap-10 items-center border-b border-white/5 hover:bg-white/5 transition-colors">
+                    <div class="w-20 text-4xl font-black text-slate-700">W1</div>
+                    <div class="flex-1">
+                        <h6 class="text-xl font-bold mb-2">INFRASTRUCTURE SETUP</h6>
+                        <p class="text-slate-400 text-sm">Thiết lập Core OS V5.4, cấu hình Sharding và hệ thống bảo mật tầng sâu.</p>
+                    </div>
+                    <div class="text-xs font-mono text-teal-500 uppercase">Preparation</div>
+                </div>
+                <div class="p-10 flex flex-col md:flex-row gap-10 items-center border-b border-white/5 hover:bg-white/5 transition-colors">
+                    <div class="w-20 text-4xl font-black text-teal-500">W2</div>
+                    <div class="flex-1">
+                        <h6 class="text-xl font-bold mb-2">CONTEXTUALIZATION & PILOT</h6>
+                        <p class="text-slate-400 text-sm">Nạp Brand DNA khách hàng. Chạy thử nghiệm 5 kịch bản mẫu dưới sự giám sát (Human-in-the-loop).</p>
+                    </div>
+                    <div class="text-xs font-mono text-teal-500 uppercase">Execution</div>
+                </div>
+                <div class="p-10 flex flex-col md:flex-row gap-10 items-center hover:bg-white/5 transition-colors">
+                    <div class="w-20 text-4xl font-black text-slate-700">W3+</div>
+                    <div class="flex-1">
+                        <h6 class="text-xl font-bold mb-2">FULL AUTONOMY & EVOLUTION</h6>
+                        <p class="text-slate-400 text-sm">Bàn giao quyền kiểm soát cho Magic Lamp. Hệ thống bắt đầu tự học và tự tiến hóa.</p>
+                    </div>
+                    <div class="text-xs font-mono text-teal-500 uppercase">Deployment</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-40 px-8 text-center bg-mesh">
+        <h2 class="text-6xl md:text-8xl font-black mb-12">THẮP SÁNG <br> <span class="vct-gradient">MAGIC LAMP</span></h2>
+        <p class="text-xl text-slate-400 mb-16 max-w-2xl mx-auto">Cùng VCT Platform tạo nên cuộc cách mạng trong ngành Media & Marketing bằng AI thực thụ.</p>
+        <button class="px-12 py-6 bg-teal-600 hover:bg-teal-500 text-white font-black text-2xl rounded-2xl transition-all shadow-2xl shadow-teal-900/50 pulse-teal">BẮT ĐẦU NGAY</button>
+        <div class="mt-32 text-slate-600 text-sm font-bold tracking-[0.4em]">VCT PLATFORM © 2026 — ALL RIGHTS RESERVED</div>
+    </header>
 
 </body>
 </html>
