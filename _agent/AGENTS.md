@@ -10,13 +10,16 @@
 | **ML-HR** | HR Manager | Tuyển dụng Creator/Idol, tính lương, quản lý KPIs. |
 | **ML-Finance** | Accountant | Xử lý hóa đơn, đối soát tiền live, báo cáo P&L. |
 | **ML-Legal** | Legal Counsel | Hợp đồng bản quyền, HĐ KOL, tuân thủ chính sách sàn. |
-| **ML-Admin** | Office Manager | Quản lý tài sản (Studio, máy móc), lịch họp. |
+| **ML-Admin** | Office Manager | Quản lý tài sản văn phòng, lịch họp. |
+| **ML-Studio** | Studio Manager | Quản trị thiết bị quay, lịch sử dụng Studio & Livestream. |
 
 ## 2. Đội ngũ Agency (Production & Performance)
 
 | Agent | Role | Chuyên môn |
 |:---|:---|:---|
 | **Creative-AI** | Script Writer | Viết kịch bản TikTok/Shorts, lên ý tưởng Campaign. |
+| **ML-Account** | Account Manager | Quản trị quan hệ khách hàng, tiếp nhận brief & feedback. |
+| **ML-Strategy** | Trend Strategist | Phân tích xu hướng vĩ mô, tối ưu "Công thức triệu view". |
 | **Live-Ops** | Livestream Coordinator | Sắp xếp lịch Live, gắn giỏ hàng, tracking hiệu suất. |
 | **Ecom-Agent** | E-commerce Manager | Quản trị gian hàng Shopee/Lazada/TikTok Shop. |
 | **Ads-Manager** | Performance Marketer | Chạy Ads, tối ưu hóa ngân sách, báo cáo ROI. |

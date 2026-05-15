@@ -6,20 +6,23 @@
 
 | Loại công việc | Luồng xử lý (Topology) | Phòng ban liên quan |
 |:---------------|:-----------------------|:-------------------|
-| **Sản xuất Video** | `Creative-AI` → `Editor-Assistant` → `Project Leader` → `Client` | 06 |
-| **Chiến dịch Live**| `Creative-AI` → `Live-Ops` → `Ads-Manager` → `Ecom-Agent` | 07, 03 |
+| **Sản xuất Video** | `ML-Account` → `Creative-AI` → `ML-Studio` → `Editor-Assistant` → `ML-Account` | 06, 03 |
+| **Xử lý Feedback** | `ML-Account` → `Creative-AI` → `Editor-Assistant` → `Client` | 03, 06 |
+| **Chiến dịch Live**| `ML-Strategy` → `Creative-AI` → `ML-Studio` → `Live-Ops` → `Ads-Manager` | 07, 03 |
 | **Quản trị Sàn** | `Ecom-Agent` → `Ads-Manager` → `ML-Finance` | 03, 02 |
 | **Tuyển Idol** | `ML-HR` → `ML-Legal` → `Chairman` | 04, 02 |
 | **Tài chính/Thuế**| `ML-Finance` → `ML-Legal` → `Chairman` | 02 |
-| **Hợp đồng Khách**| `Sales` → `ML-Legal` → `ML-Finance` → `Chairman` | 03, 02 |
+| **Hợp đồng Khách**| `Sales` → `ML-Legal` → `ML-Account` → `ML-Finance` | 03, 02 |
 
 ## II. Department Quality Gates
 
 | Dept Lead | Chịu trách nhiệm | Gatekeeper cho |
 |:----------|:-----------------|:---------------|
 | **Chairman** | Executive | Quyết định chiến lược & Ngân sách lớn |
+| **ML-Account** | Growth/Sales | Gatekeeper cho Feedback & Hài lòng khách hàng |
 | **ML-Finance** | Legal/Finance | Tính chính xác của số liệu & Pháp lý HĐ |
 | **Creative Lead**| Media Production | Chất lượng kịch bản & Viral Factor |
+| **ML-Studio** | Operations | Sẵn sàng của thiết bị & Studio |
 | **Ops Manager** | Operations/HR | Nhân sự Idol & Vận hành Studio |
 | **Growth Lead** | Sales/Marketing | Doanh thu & Hiệu quả Ads |
 
