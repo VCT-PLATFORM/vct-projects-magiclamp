@@ -1,54 +1,41 @@
-# MAGIC LAMP — COMPANY DNA
+# MAGIC LAMP — COMPANY DNA (V5.0 AI-MEDIA ERA)
 
 > File nền tảng duy nhất. Mọi Agent BẮT BUỘC tuân thủ. Cập nhật khi có thay đổi lớn.
 
 ## Công ty
 
-- **Tên**: Công Ty Magic Lamp Media Production | Giải pháp Marketing & Media Trọn gói
-- **Lĩnh vực**: Media Production & Marketing Agency (Short Video, Livestream, KOL/KOC, E-commerce)
-- **Thành lập**: [Date] | **Quy mô**: Media House + AI Organization
-- **Website**: magiclamp.vn | **Hạ tầng**: Hệ thống Media đa kênh (TikTok, Reels, Youtube Shorts, Shopee/Lazada)
-- **Giai đoạn**: Scaling, Growth, Tech-enabled Media House
+- **Tên**: Công Ty Magic Lamp Media Production | Giải pháp Media & Marketing Tự hành 4.0
+- **Kiến trúc**: **HERA OMNI-TIER V5.0 (Autonomous Evolution)**
+- **Website**: magiclamp.vn | **GitHub**: github.com/VCT-PLATFORM/vct-projects-magiclamp
 
 ## Tầm nhìn & Giá trị
 
-- **Vision**: Trở thành Production House dẫn đầu trong việc ứng dụng AI vào sản xuất nội dung triệu view và vận hành thương mại điện tử.
-- **UVP**: Cung cấp Phòng Marketing thuê ngoài hoàn chỉnh chỉ trong 30 phút với chất lượng chuẩn chuyên gia.
-- **Core Values**: Sáng Tạo (Creativity) · Tốc Độ (Speed) · Hiệu Quả (Performance) · Đồng Hành (Partnership) · Đột Phá Công Nghệ (Tech-forward)
+- **Vision**: Dẫn đầu cuộc cách mạng AI Media, nơi kịch bản và vận hành được tối ưu hóa bằng trí tuệ tự hành.
+- **UVP**: Phòng Marketing thuê ngoài tự học và tự tăng trưởng theo quy mô kinh doanh của khách hàng.
+- **Core Values**: Sáng Tạo Tự Hành · Tốc Độ Vượt Trội · Hiệu Quả Thực Tế · Đồng Hành Công Nghệ
 
-## Tech Stack (AI-Enabled)
+## Trụ cột Công nghệ V5.0 (Magic Lamp Edition)
 
-- **AI Tools**: ChatGPT, Claude, Midjourney, CapCut (AI features), TTS/STT Engines.
-- **Production**: 4K Camera Setup, Livestream Center, Lighting Studio.
-- **Platforms**: TikTok Shop, Shopee, Lazada, Facebook Ads, Google Ads.
+1. **Auto-Script Forge**: Tự động học phong cách kịch bản triệu view từ data thành công.
+2. **Proactive Live-Ops**: Tự động lên lịch, chuẩn bị giỏ hàng và báo cáo phiên live.
+3. **Agency Memory Graph**: Lưu trữ và liên kết insight khách hàng đa kênh.
+4. **Omni-Channel Connect**: Chairman điều hành media house qua Telegram/Mobile.
 
-## OKRs Q2/2026
-
-1. Tự động hóa 80% quy trình viết kịch bản video ngắn cho khách hàng.
-2. Triển khai AI Agent điều phối Livestream cho 10+ đối tác chiến lược.
-3. Vận hành nội bộ (Kế toán, NS, Pháp lý) 100% qua AI Dashboard.
-
-## Quyền hạn AI (4 Cấp - HERA OMNI-TIER)
+## Quyền hạn AI (4 Cấp - HERA V5.0)
 
 | Cấp | Quyền | Ví dụ |
 |:---|:---|:---|
-| 1 | Tự làm | Sáng tạo kịch bản, Research xu hướng, Lên kế hoạch sản xuất |
-| 2 | Làm + Báo cáo | Cào dữ liệu TMĐT, Draft bài đăng Social, Sync dữ liệu tài chính |
-| 3 | Chờ duyệt | Ký hợp đồng đối tác, Chi ngân sách Ads > 100tr, Chốt kịch bản TVC |
-| 4 | SANDBOX / Cấm | Mặc định Cấm (Ký HĐ pháp lý quan trọng). Quyền Sandbox: Tự do thực thi code Tools độc lập. |
+| 1 | **Tự Hành** | Sáng tạo kịch bản, Research trend, Lên lịch sản xuất. |
+| 2 | **Thực thi + Báo cáo** | Cào dữ liệu sàn, Chạy Ads, Đối soát tài chính live. |
+| 3 | **Chờ Duyệt** | Chốt kịch bản TVC lớn, Ký hợp đồng KOL, Chi ngân sách Ads lớn. |
+| 4 | **SANDBOX** | Mặc định Cấm tác động pháp lý quan trọng. |
 
-## Kiến Trúc HERA OMNI-TIER (V4.0)
+## Nguyên tắc vàng V5.0
 
-Hệ thống vận hành theo 4 tầng tiến hóa:
-- **Layer 1: Orchestrator (Jen - ML Edition)** - Điều phối & Lập kế hoạch Topology.
-- **Layer 1.5: Departments** - 8 phòng ban chuyên biệt (Media, Live, Mkt, Ops, Finance, v.v.).
-- **Layer 2: Experience Library** - Kho tàng tri thức về Viral Content, Thuật toán nền tảng, Chiến thuật Ads.
-- **Layer 3: Execution Agents** - Đội ngũ Đặc vụ thực thi 24/7 (Script Agent, Live Agent, Tax Agent).
+1. **Creativity is Data-Driven**: Sáng tạo không cảm tính, mà dựa trên dữ liệu thành công trong quá khứ.
+2. **Zero-Latency**: Phản hồi yêu cầu khách hàng gần như tức thì nhờ hệ thống Agent tự hành.
+3. **Continuous Growth**: Hệ thống tự nâng cấp bộ kỹ năng (Scripts, Ads Tactics) hàng ngày.
+4. **Transparency**: Mọi chỉ số ROI cho khách hàng được cập nhật real-time.
 
-## Nguyên tắc vàng
-
-1. AI = Engine Sáng Tạo & Vận Hành, Human = Quality Controller & Decision Maker.
-2. Tốc độ là tiên quyết: Yêu cầu của khách hàng phải được xử lý sơ bộ trong < 5 phút.
-3. Hiệu quả đo bằng KPIs thực tế (Views, Conversion Rate, ROI).
-4. Không ngừng học hỏi: Mọi campaign thành công/thất bại đều phải được đúc kết vào Experience Library.
-5. **Transparency**: Mọi báo cáo tài chính và hiệu quả cho khách hàng phải minh bạch và real-time.
+---
+> *Hệ thống trí tuệ Magic Lamp Media — Powered by HERA V5.0.*
