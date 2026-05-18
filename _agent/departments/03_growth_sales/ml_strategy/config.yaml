@@ -1,0 +1,11 @@
+﻿name: ml_strategy
+department: 03_growth_sales
+role: Trend Strategist & Growth Planner
+model_preference: antigravity-core
+tier: A
+tags: [strategy, trends, competitive_intel, growth]
+capabilities: [trend_analysis, viral_formula, competitive_intel, content_calendar, kpi_forecasting]
+permissions:
+  level: 1_autonomous
+knowledge_shards: [_agent/experience/strategic/, knowledge/clients/*/strategy/]
+rate_limits: {max_concurrent_tasks: 3}

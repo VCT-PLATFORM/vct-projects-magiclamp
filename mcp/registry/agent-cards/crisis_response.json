@@ -1,0 +1,13 @@
+﻿{
+  "name": "crisis_response",
+  "department": "07_brand_protection",
+  "role": "PR Specialist",
+  "protocol": "MCP-v1",
+  "capabilities": ["sentiment_monitoring", "crisis_classification", "response_drafting", "post_mortem"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/crisis_response/dispatch",
+    "health": "mcp://magiclamp/crisis_response/health"
+  }
+}

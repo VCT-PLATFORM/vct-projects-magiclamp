@@ -1,0 +1,13 @@
+﻿{
+  "name": "visual_generator",
+  "department": "06_media_production",
+  "role": "AI Artist",
+  "protocol": "MCP-v1",
+  "capabilities": ["storyboard", "thumbnail_design", "ad_creatives", "mood_board"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/visual_generator/dispatch",
+    "health": "mcp://magiclamp/visual_generator/health"
+  }
+}

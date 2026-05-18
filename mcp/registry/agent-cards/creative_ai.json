@@ -1,0 +1,13 @@
+﻿{
+  "name": "creative_ai",
+  "department": "06_media_production",
+  "role": "Script Writer",
+  "protocol": "MCP-v1",
+  "capabilities": ["script_writing", "hook_generation", "trend_research", "creative_briefing"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/creative_ai/dispatch",
+    "health": "mcp://magiclamp/creative_ai/health"
+  }
+}

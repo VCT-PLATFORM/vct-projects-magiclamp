@@ -1,0 +1,13 @@
+﻿{
+  "name": "jen",
+  "department": "01_executive",
+  "role": "Chief of Staff",
+  "protocol": "MCP-v1",
+  "capabilities": ["task_dispatch", "dag_construction", "daily_reporting", "escalation"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/jen/dispatch",
+    "health": "mcp://magiclamp/jen/health"
+  }
+}

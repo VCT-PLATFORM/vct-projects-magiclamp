@@ -1,0 +1,26 @@
+﻿name: ml_finance
+department: 02_legal_finance
+role: Accountant & Financial Controller
+model_preference: antigravity-core
+tier: A
+tags: [finance, accounting, reconciliation, reporting]
+capabilities:
+  - revenue_tracking
+  - live_reconciliation
+  - pl_reporting
+  - ads_budget_monitoring
+  - commission_calculation
+  - tax_compliance
+  - financial_forecasting
+permissions:
+  level: 2_execute_report
+  budget_authority: false
+  requires_gate: GATE-BUDGET
+knowledge_shards:
+  - knowledge/clients/*/finance/
+  - _agent/sop/SOP-201*
+rate_limits:
+  max_concurrent_tasks: 3
+mcp_endpoints:
+  dispatch: mcp://magiclamp/ml_finance/dispatch
+  health: mcp://magiclamp/ml_finance/health

@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_strategy",
+  "department": "03_growth_sales",
+  "role": "Trend Strategist",
+  "protocol": "MCP-v1",
+  "capabilities": ["trend_analysis", "viral_formula", "competitive_intel", "content_calendar"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_strategy/dispatch",
+    "health": "mcp://magiclamp/ml_strategy/health"
+  }
+}

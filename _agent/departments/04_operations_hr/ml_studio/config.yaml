@@ -1,0 +1,11 @@
+﻿name: ml_studio
+department: 04_operations_hr
+role: Studio & Equipment Manager
+model_preference: antigravity-core
+tier: A
+tags: [studio, equipment, production, booking]
+capabilities: [studio_booking, equipment_tracking, technical_setup, maintenance_scheduling, inventory_management]
+permissions:
+  level: 1_autonomous
+knowledge_shards: [knowledge/studio/]
+rate_limits: {max_concurrent_tasks: 3}

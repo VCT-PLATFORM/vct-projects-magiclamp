@@ -1,0 +1,11 @@
+﻿name: social_growth
+department: 03_growth_sales
+role: Community Manager & Viral Distribution
+model_preference: antigravity-core
+tier: A
+tags: [community, seeding, ugc, viral, engagement]
+capabilities: [community_management, seeding, ugc_strategy, engagement_analysis, influencer_outreach, cross_posting]
+permissions:
+  level: 1_autonomous
+knowledge_shards: [knowledge/clients/*/social/]
+rate_limits: {max_concurrent_tasks: 5}

@@ -1,0 +1,13 @@
+﻿{
+  "name": "seo_specialist",
+  "department": "03_growth_sales",
+  "role": "SEO Specialist",
+  "protocol": "MCP-v1",
+  "capabilities": ["keyword_research", "on_page_seo", "tiktok_seo", "technical_audit"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/seo_specialist/dispatch",
+    "health": "mcp://magiclamp/seo_specialist/health"
+  }
+}

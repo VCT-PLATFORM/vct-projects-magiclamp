@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_account",
+  "department": "03_growth_sales",
+  "role": "Account Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["client_relations", "brief_intake", "project_tracking", "deliverable_review"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_account/dispatch",
+    "health": "mcp://magiclamp/ml_account/health"
+  }
+}

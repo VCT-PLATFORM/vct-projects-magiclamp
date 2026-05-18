@@ -1,0 +1,13 @@
+﻿{
+  "name": "ecom_agent",
+  "department": "05_product",
+  "role": "E-commerce Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["product_listing", "pricing_optimization", "inventory_monitoring", "review_management"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ecom_agent/dispatch",
+    "health": "mcp://magiclamp/ecom_agent/health"
+  }
+}

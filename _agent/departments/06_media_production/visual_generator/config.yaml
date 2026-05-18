@@ -1,0 +1,12 @@
+﻿name: visual_generator
+department: 06_media_production
+role: AI Artist, Visual Designer & Storyboard Creator
+model_preference: antigravity-core
+tier: A
+tags: [design, visual, storyboard, thumbnail, ad_creative]
+capabilities: [storyboard, thumbnail_design, ad_creatives, mood_board, infographic, photo_editing]
+permissions:
+  level: 1_autonomous
+  tools: [midjourney, dall_e, canva, figma]
+knowledge_shards: [knowledge/clients/*/brand/, knowledge/clients/*/assets/]
+rate_limits: {max_concurrent_tasks: 5}

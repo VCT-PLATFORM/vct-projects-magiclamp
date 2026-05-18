@@ -1,0 +1,13 @@
+﻿{
+  "name": "market_researcher",
+  "department": "03_growth_sales",
+  "role": "Research Specialist",
+  "protocol": "MCP-v1",
+  "capabilities": ["market_analysis", "competitor_research", "consumer_insights", "social_listening"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/market_researcher/dispatch",
+    "health": "mcp://magiclamp/market_researcher/health"
+  }
+}

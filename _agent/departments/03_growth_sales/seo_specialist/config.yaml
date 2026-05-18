@@ -1,0 +1,11 @@
+﻿name: seo_specialist
+department: 03_growth_sales
+role: GEO/SEO Growth Specialist
+model_preference: antigravity-core
+tier: A
+tags: [seo, organic, keywords, content_strategy]
+capabilities: [keyword_research, on_page_seo, tiktok_seo, technical_audit, content_cluster, local_seo]
+permissions:
+  level: 1_autonomous
+knowledge_shards: [knowledge/clients/*/seo/]
+rate_limits: {max_concurrent_tasks: 3}

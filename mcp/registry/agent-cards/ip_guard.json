@@ -1,0 +1,13 @@
+﻿{
+  "name": "ip_guard",
+  "department": "07_brand_protection",
+  "role": "IP Protector",
+  "protocol": "MCP-v1",
+  "capabilities": ["content_scanning", "dmca_takedown", "content_id", "ip_pre_check"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ip_guard/dispatch",
+    "health": "mcp://magiclamp/ip_guard/health"
+  }
+}

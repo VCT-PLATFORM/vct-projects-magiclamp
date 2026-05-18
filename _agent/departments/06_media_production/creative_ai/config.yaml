@@ -1,0 +1,13 @@
+﻿name: creative_ai
+department: 06_media_production
+role: Script Writer & Creative Lead
+model_preference: antigravity-core
+tier: A
+is_dept_lead: true
+tags: [creative, script, content, viral, tiktok, reels]
+capabilities: [script_writing, hook_generation, trend_research, creative_briefing, viral_scoring, multi_platform_adaptation]
+permissions:
+  level: 1_autonomous
+  quality_gate: true
+knowledge_shards: [knowledge/clients/*/content/, _agent/experience/tactical/scripts/]
+rate_limits: {max_concurrent_tasks: 5, min_hooks_per_script: 3}

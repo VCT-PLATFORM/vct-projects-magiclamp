@@ -1,0 +1,28 @@
+﻿name: jen_chief_of_staff
+department: 01_executive
+role: Chief of Staff & Orchestrator V11
+model_preference: antigravity-core
+tier: S
+tags: [executive, orchestration, dispatch]
+capabilities:
+  - task_dispatch
+  - dag_construction
+  - 5_signal_classification
+  - daily_reporting
+  - escalation_management
+  - multi_agent_synthesis
+permissions:
+  level: 1_autonomous
+  can_dispatch_to: all_agents
+  budget_authority: false
+  contract_authority: false
+knowledge_shards:
+  - _agent/ROUTING_INDEX.md
+  - _agent/CROSS_DEPARTMENT_PROTOCOLS.md
+  - _agent/MISSION_CONTROL.md
+rate_limits:
+  max_concurrent_tasks: 10
+  max_daily_dispatches: 200
+mcp_endpoints:
+  dispatch: mcp://magiclamp/jen/dispatch
+  health: mcp://magiclamp/jen/health

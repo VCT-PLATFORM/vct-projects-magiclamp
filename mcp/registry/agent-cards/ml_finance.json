@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_finance",
+  "department": "02_legal_finance",
+  "role": "Accountant",
+  "protocol": "MCP-v1",
+  "capabilities": ["revenue_tracking", "live_reconciliation", "pl_reporting", "ads_budget_monitoring"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_finance/dispatch",
+    "health": "mcp://magiclamp/ml_finance/health"
+  }
+}

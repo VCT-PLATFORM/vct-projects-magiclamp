@@ -1,0 +1,13 @@
+﻿{
+  "name": "social_growth",
+  "department": "03_growth_sales",
+  "role": "Community Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["community_management", "seeding", "ugc_strategy", "engagement_analysis"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/social_growth/dispatch",
+    "health": "mcp://magiclamp/social_growth/health"
+  }
+}

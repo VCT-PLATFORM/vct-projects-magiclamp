@@ -1,0 +1,13 @@
+﻿{
+  "name": "live_ops",
+  "department": "05_product",
+  "role": "Livestream Coordinator",
+  "protocol": "MCP-v1",
+  "capabilities": ["live_scheduling", "cart_setup", "realtime_tracking", "post_live_reporting"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/live_ops/dispatch",
+    "health": "mcp://magiclamp/live_ops/health"
+  }
+}

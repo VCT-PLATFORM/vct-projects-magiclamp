@@ -1,0 +1,12 @@
+﻿name: editor_assistant
+department: 06_media_production
+role: Media QC Specialist & Asset Manager
+model_preference: antigravity-core
+tier: A
+tags: [qc, quality, asset_management, video, review]
+capabilities: [video_review, quality_check, asset_management, export_formatting, revision_tracking, archive_management]
+permissions:
+  level: 1_autonomous
+  quality_gate: final
+knowledge_shards: [knowledge/clients/*/assets/]
+rate_limits: {max_concurrent_tasks: 5}

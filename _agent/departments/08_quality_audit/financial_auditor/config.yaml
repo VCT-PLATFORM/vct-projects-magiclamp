@@ -1,0 +1,15 @@
+﻿name: financial_auditor
+department: 08_quality_audit
+role: Internal Auditor & HERA Score Evaluator
+model_preference: antigravity-core
+tier: A
+is_independent: true
+tags: [audit, hera, compliance, scoring, financial_audit]
+capabilities: [hera_scoring, financial_audit, compliance_check, health_assessment, anomaly_detection]
+permissions:
+  level: 2_execute_report
+  reports_to: chairman_direct
+  bypass_jen: true
+  read_access: all_agents
+knowledge_shards: [knowledge/audit/, _agent/AGENT_HEALTH_DASHBOARD.md]
+rate_limits: {max_concurrent_tasks: 2}

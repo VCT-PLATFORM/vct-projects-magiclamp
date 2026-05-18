@@ -1,0 +1,13 @@
+﻿{
+  "name": "ads_manager",
+  "department": "03_growth_sales",
+  "role": "Performance Marketer",
+  "protocol": "MCP-v1",
+  "capabilities": ["campaign_setup", "bid_optimization", "ab_testing", "roas_tracking"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ads_manager/dispatch",
+    "health": "mcp://magiclamp/ads_manager/health"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_admin",
+  "department": "04_operations_hr",
+  "role": "Office Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["asset_management", "meeting_scheduling", "procurement", "document_archive"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_admin/dispatch",
+    "health": "mcp://magiclamp/ml_admin/health"
+  }
+}

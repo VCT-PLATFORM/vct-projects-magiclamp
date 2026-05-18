@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_legal",
+  "department": "02_legal_finance",
+  "role": "Legal Counsel",
+  "protocol": "MCP-v1",
+  "capabilities": ["contract_review", "ip_protection", "platform_compliance", "nda_drafting"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_legal/dispatch",
+    "health": "mcp://magiclamp/ml_legal/health"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "name": "media_planner",
+  "department": "03_growth_sales",
+  "role": "Media Strategist",
+  "protocol": "MCP-v1",
+  "capabilities": ["budget_allocation", "channel_mix", "kpi_forecasting", "competitive_spend"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/media_planner/dispatch",
+    "health": "mcp://magiclamp/media_planner/health"
+  }
+}

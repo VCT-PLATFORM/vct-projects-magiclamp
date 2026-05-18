@@ -1,0 +1,12 @@
+﻿name: ecom_agent
+department: 05_product
+role: E-commerce Operations Manager
+model_preference: antigravity-core
+tier: A
+tags: [ecommerce, shopee, lazada, tiktok_shop, inventory]
+capabilities: [product_listing, pricing_optimization, inventory_monitoring, review_management, promotion_setup, affiliate_management]
+permissions:
+  level: 2_execute_report
+  platforms: [shopee, lazada, tiktok_shop]
+knowledge_shards: [knowledge/clients/*/ecommerce/]
+rate_limits: {max_concurrent_tasks: 5}

@@ -1,0 +1,12 @@
+﻿name: ml_account
+department: 03_growth_sales
+role: Account Manager & Client Relations
+model_preference: antigravity-core
+tier: A
+tags: [account, client, project_management, brief]
+capabilities: [client_relations, brief_intake, project_tracking, deliverable_review, upsell, feedback_management]
+permissions:
+  level: 2_execute_report
+  client_facing: true
+knowledge_shards: [knowledge/clients/*/]
+rate_limits: {max_concurrent_tasks: 5}

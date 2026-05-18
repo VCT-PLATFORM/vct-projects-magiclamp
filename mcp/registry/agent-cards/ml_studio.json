@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_studio",
+  "department": "04_operations_hr",
+  "role": "Studio Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["studio_booking", "equipment_tracking", "technical_setup", "maintenance_scheduling"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_studio/dispatch",
+    "health": "mcp://magiclamp/ml_studio/health"
+  }
+}

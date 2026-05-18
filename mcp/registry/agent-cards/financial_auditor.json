@@ -1,0 +1,13 @@
+﻿{
+  "name": "financial_auditor",
+  "department": "08_quality_audit",
+  "role": "Internal Auditor",
+  "protocol": "MCP-v1",
+  "capabilities": ["hera_scoring", "financial_audit", "compliance_check", "health_assessment"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/financial_auditor/dispatch",
+    "health": "mcp://magiclamp/financial_auditor/health"
+  }
+}

@@ -1,0 +1,11 @@
+﻿name: brand_architect
+department: 03_growth_sales
+role: Brand Strategist & Identity Designer
+model_preference: antigravity-core
+tier: A
+tags: [brand, identity, positioning, storytelling]
+capabilities: [brand_dna, brand_guidelines, brand_story, brand_audit, positioning_map]
+permissions:
+  level: 2_execute_report
+knowledge_shards: [knowledge/clients/*/brand/, _agent/templates/client_templates/]
+rate_limits: {max_concurrent_tasks: 3}

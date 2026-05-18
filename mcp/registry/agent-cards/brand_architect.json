@@ -1,0 +1,13 @@
+﻿{
+  "name": "brand_architect",
+  "department": "03_growth_sales",
+  "role": "Brand Strategist",
+  "protocol": "MCP-v1",
+  "capabilities": ["brand_dna", "brand_guidelines", "brand_story", "brand_audit"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/brand_architect/dispatch",
+    "health": "mcp://magiclamp/brand_architect/health"
+  }
+}

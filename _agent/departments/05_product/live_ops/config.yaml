@@ -1,0 +1,12 @@
+﻿name: live_ops
+department: 05_product
+role: Livestream Operations Coordinator
+model_preference: antigravity-core
+tier: A
+tags: [livestream, live, gmv, realtime, idol]
+capabilities: [live_scheduling, cart_setup, realtime_tracking, post_live_reporting, commission_calculation, technical_coordination]
+permissions:
+  level: 2_execute_report
+  platforms: [tiktok_live, shopee_live]
+knowledge_shards: [knowledge/clients/*/live/]
+rate_limits: {max_concurrent_tasks: 2}

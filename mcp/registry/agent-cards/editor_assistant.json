@@ -1,0 +1,13 @@
+﻿{
+  "name": "editor_assistant",
+  "department": "06_media_production",
+  "role": "Media QC",
+  "protocol": "MCP-v1",
+  "capabilities": ["video_review", "quality_check", "asset_management", "export_formatting"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/editor_assistant/dispatch",
+    "health": "mcp://magiclamp/editor_assistant/health"
+  }
+}

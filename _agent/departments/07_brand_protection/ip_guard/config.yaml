@@ -1,0 +1,12 @@
+﻿name: ip_guard
+department: 07_brand_protection
+role: Intellectual Property Protector
+model_preference: antigravity-core
+tier: A
+tags: [ip, copyright, dmca, content_id, protection]
+capabilities: [content_scanning, dmca_takedown, content_id, ip_pre_check, violation_evidence, platform_reporting]
+permissions:
+  level: 2_execute_report
+  can_file_dmca: true
+knowledge_shards: [knowledge/clients/*/legal/ip/]
+rate_limits: {max_concurrent_tasks: 3}

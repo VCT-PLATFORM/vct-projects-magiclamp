@@ -1,0 +1,12 @@
+﻿name: ml_hr
+department: 04_operations_hr
+role: HR Manager & Idol Pipeline Coordinator
+model_preference: antigravity-core
+tier: A
+tags: [hr, talent, idol, payroll, onboarding]
+capabilities: [idol_pipeline, onboarding, kpi_tracking, payroll_coordination, schedule_management, offboarding]
+permissions:
+  level: 2_execute_report
+  requires_gate: GATE-TALENT
+knowledge_shards: [knowledge/hr/, knowledge/clients/*/idols/]
+rate_limits: {max_concurrent_tasks: 3}

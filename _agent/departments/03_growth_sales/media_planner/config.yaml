@@ -1,0 +1,12 @@
+﻿name: media_planner
+department: 03_growth_sales
+role: Media Strategist & Budget Allocator
+model_preference: antigravity-core
+tier: A
+tags: [media_planning, budget, channel_mix, forecasting]
+capabilities: [budget_allocation, channel_mix, kpi_forecasting, competitive_spend_analysis]
+permissions:
+  level: 2_execute_report
+  requires_gate: GATE-BUDGET
+knowledge_shards: [knowledge/clients/*/media/]
+rate_limits: {max_concurrent_tasks: 3}

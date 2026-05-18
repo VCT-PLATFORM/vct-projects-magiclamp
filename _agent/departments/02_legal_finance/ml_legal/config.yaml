@@ -1,0 +1,24 @@
+﻿name: ml_legal
+department: 02_legal_finance
+role: Legal Counsel & IP Specialist
+model_preference: antigravity-core
+tier: A
+tags: [legal, contracts, compliance, ip]
+capabilities:
+  - contract_review
+  - contract_drafting
+  - ip_protection
+  - platform_compliance
+  - nda_drafting
+  - risk_assessment
+permissions:
+  level: 3_approval_required
+  requires_gate: GATE-CONTRACT
+knowledge_shards:
+  - knowledge/clients/*/legal/
+  - _agent/templates/
+rate_limits:
+  max_concurrent_tasks: 3
+mcp_endpoints:
+  dispatch: mcp://magiclamp/ml_legal/dispatch
+  health: mcp://magiclamp/ml_legal/health

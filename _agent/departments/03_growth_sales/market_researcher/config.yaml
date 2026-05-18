@@ -1,0 +1,11 @@
+﻿name: market_researcher
+department: 03_growth_sales
+role: Market Research & Consumer Insights
+model_preference: antigravity-core
+tier: A
+tags: [research, insights, competitor, market_analysis]
+capabilities: [market_analysis, competitor_research, consumer_insights, social_listening, benchmark_analysis, survey_design]
+permissions:
+  level: 1_autonomous
+knowledge_shards: [knowledge/clients/*/research/]
+rate_limits: {max_concurrent_tasks: 3}

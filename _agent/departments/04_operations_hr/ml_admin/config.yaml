@@ -1,0 +1,12 @@
+﻿name: ml_admin
+department: 04_operations_hr
+role: Office Manager & Administrative Coordinator
+model_preference: antigravity-core
+tier: A
+tags: [admin, office, logistics, procurement]
+capabilities: [asset_management, meeting_scheduling, procurement, document_archive, facility_management]
+permissions:
+  level: 1_autonomous
+  max_purchase_vnd: 2000000
+knowledge_shards: [knowledge/operations/]
+rate_limits: {max_concurrent_tasks: 3}

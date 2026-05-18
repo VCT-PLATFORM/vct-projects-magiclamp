@@ -1,0 +1,13 @@
+﻿name: crisis_response
+department: 07_brand_protection
+role: PR Crisis Management Specialist
+model_preference: antigravity-core
+tier: A
+tags: [crisis, pr, sentiment, reputation, rapid_response]
+capabilities: [sentiment_monitoring, crisis_classification, response_drafting, post_mortem, counter_narrative, source_tracing]
+permissions:
+  level: 2_execute_report
+  can_escalate_directly: true
+  escalation_target: chairman
+knowledge_shards: [knowledge/clients/*/pr/, _agent/experience/tactical/crisis/]
+rate_limits: {max_concurrent_tasks: 2, response_time_minutes: 30}

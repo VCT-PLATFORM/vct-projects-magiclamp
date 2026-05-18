@@ -1,0 +1,13 @@
+﻿{
+  "name": "ml_hr",
+  "department": "04_operations_hr",
+  "role": "HR Manager",
+  "protocol": "MCP-v1",
+  "capabilities": ["idol_pipeline", "onboarding", "kpi_tracking", "payroll_coordination"],
+  "status": "active",
+  "tier": "A",
+  "endpoints": {
+    "dispatch": "mcp://magiclamp/ml_hr/dispatch",
+    "health": "mcp://magiclamp/ml_hr/health"
+  }
+}

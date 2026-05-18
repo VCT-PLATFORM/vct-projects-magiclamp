@@ -1,0 +1,13 @@
+﻿name: ads_manager
+department: 03_growth_sales
+role: Performance Marketing Specialist
+model_preference: antigravity-core
+tier: A
+tags: [ads, performance, roas, tiktok, facebook, google]
+capabilities: [campaign_setup, bid_optimization, ab_testing, roas_tracking, audience_targeting, creative_testing]
+permissions:
+  level: 2_execute_report
+  requires_gate: GATE-BUDGET
+  platforms: [tiktok_ads, facebook_ads, google_ads]
+knowledge_shards: [knowledge/clients/*/ads/]
+rate_limits: {max_concurrent_tasks: 5, max_daily_budget_vnd: 50000000}
